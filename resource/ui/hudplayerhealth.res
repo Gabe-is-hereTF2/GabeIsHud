@@ -5,18 +5,18 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"100"		[$WIN32]
+		"xpos"			"50"		[$WIN32]
 		"xpos_minmode"	"100"		[$WIN32]
-		"ypos"			"50"	[$WIN32]
+		"ypos"			"300"	[$WIN32]
 		"ypos_minmode"	"50"	[$WIN32]
 		"xpos"			"32"	[$X360]
 		"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
+		"wide"			"500"
+		"tall"			"240"
 		"visible"		"1"
 		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
+		"HealthBonusPosAdj"	"32"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
@@ -24,15 +24,16 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
+		"xpos"			"73"
 		"xpos_minmode"	"60"
-		"ypos"			"35"
+		"ypos"			"33"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"85"
+		"tall"			"85"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		"antialias" "0"
 	}		
 	"PlayerStatusHealthImageBG"
 	{
@@ -42,12 +43,13 @@
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"85"
+		"tall"			"85"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
+		"antialias" "0"
 	}	
 	"PlayerStatusHealthBonusImage"
 	{
@@ -60,28 +62,28 @@
 		"ypos_minmode"	"40"	[$WIN32]
 		"ypos"			"43"	[$X360]
 		"zpos"			"2"
-		"wide"			"55"	[$WIN32]
+		"wide"			"85"	[$WIN32]
 		"wide_minmode"	"40"	[$WIN32]
-		"wide"			"35"	[$X360]
-		"tall"			"55"	[$WIN32]
+		"wide"			"85"	[$X360]
+		"tall"			"85"	[$WIN32]
 		"tall_minmode"	"40"	[$WIN32]
-		"tall"			"35"	[$X360]
+		"tall"			"85"	[$X360]
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/health_over_bg"
+		"image" "../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}
 	"PlayerStatusHealthValue"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"76"
+		"xpos"			"79"
 		"xpos_minmode"	"61"
-		"ypos"			"52"	[$WIN32]
-		"ypos"			"55"	[$X360]
+		"ypos"			"47"	[$WIN32]
+		"ypos"			"52"	[$X360]
 		"zpos"			"5"
-		"wide"			"50"
-		"tall"			"18"
+		"wide"			"70"
+		"tall"			"70"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
@@ -95,7 +97,7 @@
 		"fieldName"		"PlayerStatusMaxHealthValue"
 		"xpos"			"76"
 		"xpos_minmode"	"61"
-		"ypos"			"20"	[$WIN32]
+		"ypos"			"30"	[$WIN32]
 		"ypos"			"55"	[$X360]
 		"zpos"			"6"
 		"wide"			"50"
