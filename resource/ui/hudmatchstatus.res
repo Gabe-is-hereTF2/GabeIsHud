@@ -661,7 +661,7 @@
 			"tall"			"56"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/team_blue"
+			"image"			"../hud/team_Red"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"
@@ -799,7 +799,7 @@
 			"tall"			"70"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/team_Red"
+			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
 		}
 		"RedTeamLabel"

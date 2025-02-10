@@ -5,11 +5,11 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
+		"xpos"			"r174"	[$WIN32]
+		"ypos"	"r110"	[$WIN32]
+		"xpos_minmode"	"r90"	[$WIN32]
 		"ypos_minmode"	"r74"	[$WIN32]
-		"xpos"			"r194"	[$X360]
+		"xpos"			"r124"	[$X360]
 		"ypos"			"r74"	[$X360]
 		"wide"			"100"
 		"tall"			"50"
@@ -29,12 +29,12 @@
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
+		"image"			"../console/hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"teambg_2"		"../console/hud/misc_ammo_area_red"
+		"teambg_2_lodef"	"../console/hud/misc_ammo_area_red_lodef"
+		"teambg_3"		"../console/hud/misc_ammo_area_blue"
+		"teambg_3_lodef"	"../console/hud/misc_ammo_area_blue_lodef"				
 	}
 	
 	"ItemEffectMeterLabel"

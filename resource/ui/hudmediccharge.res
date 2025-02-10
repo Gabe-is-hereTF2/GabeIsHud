@@ -11,10 +11,10 @@
 		"tall"			"65"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/medic_charge_blue_bg"
+		"image"			"../console/hud/medic_charge_blue_bg"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/medic_charge_red_bg"
-		"teambg_3"		"../hud/medic_charge_blue_bg"				
+		"teambg_2"		"../console/hud/medic_charge_red_bg"
+		"teambg_3"		"../console/hud/medic_charge_blue_bg"				
 	}
 	
 	"ChargeLabel"

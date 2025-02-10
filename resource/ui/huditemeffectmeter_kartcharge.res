@@ -7,7 +7,7 @@
 		"enabled"		"1"
 		"x_offset"		"0"
 		"xpos"			"10"	[$WIN32]
-		"ypos"			"r107"	[$WIN32]
+		"ypos"	"r113"	[$WIN32]
 		"xpos_minmode"	"r52"	[$WIN32]
 		"ypos_minmode"	"r45"	[$WIN32]
 		"x_offset_minmode"		"0"	[$WIN32]
@@ -29,12 +29,7 @@
 		"visible"		"1"
 		"visible_minmode"	"0"
 		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
+		"image"			"../console/hud/misc_ammo_area_horiz1_blue"			
 	}
 	
 	"ItemEffectMeterLabel"
